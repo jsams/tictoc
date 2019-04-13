@@ -51,7 +51,7 @@
 #' @name tic
 #' @aliases toc.outmsg tic.clearlog tic.clear tic.log tic toc 
 #' @param msg - a text string associated with the timer. It gets printed on a call to \code{toc()}
-#' @param func.tic Function producing the formatted message with a signature \code{f(tic, toc, msg, ...)}.
+#' @param func.tic Function producing the formatted message with a signature \code{f(tic, msg, ...)}.
 #'        Here, parameters \code{tic} and \code{toc} are the elapsed process 
 #'        times in seconds, so the time elapsed between the \code{tic()} and 
 #'        \code{toc()} calls is computed by \code{toc - tic}. \code{msg} is the string
